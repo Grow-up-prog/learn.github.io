@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ margin:0;
+ z-index: 1;
+}
+.wrapper-top{
+    background-image: url(OAB.jpg);
+    height:600px;
+    padding-top:200px;
+    background-size: cover ;
+    z-index: 2;
+}
+.header{
+    background-color: rgba(0, 63, 71, 0.8);
+    position:fixed;
+    top:0;
+    height:85px;
+    width:100%;
+    z-index:10;
+}
+.header-left{
+    float:left;
+    height:85px;
+    width:125px;
+    padding:0px 15px;
+}
+.header-right{
+    float:right;
+    line-height: 85px;
+}
+.header-right a{
+    padding:0px 35px;
+    color:white;
+    float:left;
+    display:block;
+    font-family: "helvetica";
+    font-size: 20px;
+    text-decoration: none;   
+}
+.header-right a:hover{
+    background-color: rgba(0, 63, 71, 0.5);
+}
+
+.content h1{
+    text-align: center;
+    line-height: 10px;
+    font-size:85px;
+    color:rgba(0, 63, 71, 1.0);
+    letter-spacing: 2px;
+    font-family: "helvatica";
+}
+.content p{
+    line-height:0.1px;
+    text-align:center;
+    font size:10px;
+}
+.divisi-wrapper{
+    background-color: rgba(0, 63, 71, 1.0);
+    margin-top:0;
+    height:500px;
+    width:100%;
+}
+.divisi-wrapper{
+    text-align: center;
+}
+.tag{
+    padding:12px 24px;
+    display:inline-block;
+    padding:25px;
+    color:wheat;
+    margin-top:10px;
+    font-size: 35px;
+    background-color: rgba(21, 116, 8, 0.8);
+    border-radius: 25px;
+}
+.div-wrapper{
+    display:flex;
+    padding-top:80px;
+    justify-content: center;
+    width:100%;
+}
+.sub-div{
+    padding:2px 30px;
+}
